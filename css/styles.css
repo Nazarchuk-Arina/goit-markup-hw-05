@@ -459,9 +459,7 @@ section {
 .footer-form {
   display: flex;
   flex-direction: row;
-}
-.footer-form-wrap {
-  margin-right: 24px;
+  gap: 24px;
 }
 .footer-input {
   border: 1px solid #fff;
@@ -483,7 +481,7 @@ section {
 .footer-form-btn {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -495,6 +493,8 @@ section {
   color: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
+  cursor: pointer;
   border: none;
 }
 .footer-form-btn-icon {
