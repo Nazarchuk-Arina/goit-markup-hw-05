@@ -553,10 +553,7 @@ section {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close:focus,
-.modal-close:hover {
-  fill: #ffffff;
-}
+
 .modal-close-icon {
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
