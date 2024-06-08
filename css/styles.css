@@ -567,8 +567,8 @@ section {
   border: none;
   background-color: #404bbf;
 }
-.modal-close-btn:hover > .modal-close-icon,
-.modal-close-btn:focus > .modal-close-icon {
+.modal-close:hover > .modal-close-icon,
+.modal-close:focus > .modal-close-icon {
   fill: #ffffff;
 }
 .modal-title {
